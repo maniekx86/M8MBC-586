@@ -4461,12 +4461,6 @@
 		(uuid "87120888-ff2e-4014-ac75-caf21752998c")
 	)
 	(junction
-		(at 116.84 269.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "889afc00-ec35-490c-8f86-cd06c300e8a9")
-	)
-	(junction
 		(at 316.23 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7597,6 +7591,16 @@
 			(type default)
 		)
 		(uuid "1b40f1eb-76bf-4db9-9b99-d3787b03e892")
+	)
+	(wire
+		(pts
+			(xy 116.84 279.4) (xy 116.84 280.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ba5de83-0d59-4a46-812b-1d98f8ec3580")
 	)
 	(bus
 		(pts
@@ -11297,16 +11301,6 @@
 			(type default)
 		)
 		(uuid "731f495d-b8f5-4d91-bf7b-f9d7ff59d187")
-	)
-	(wire
-		(pts
-			(xy 116.84 279.4) (xy 116.84 269.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "732fbce3-ff83-4f90-bb53-fc10acac6687")
 	)
 	(wire
 		(pts
@@ -31875,6 +31869,71 @@
 			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/0fbfd650-623a-49d2-9823-ec049cd932e9"
 					(reference "#PWR0790")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 280.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abd7a17d-701d-44a6-a72b-0e19552f641a")
+		(property "Reference" "#PWR015"
+			(at 116.84 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 112.776 282.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5f409af-ab15-43e5-887a-8b94d2b45085")
+		)
+		(instances
+			(project "pentium_test"
+				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/0fbfd650-623a-49d2-9823-ec049cd932e9"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)

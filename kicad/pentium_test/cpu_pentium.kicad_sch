@@ -10419,7 +10419,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 193.04) (xy 241.3 194.31)
+			(xy 241.3 193.04) (xy 241.3 195.58)
 		)
 		(stroke
 			(width 0)
@@ -14649,6 +14649,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 193.04) (xy 236.22 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d27b222b-d25f-4338-9fc3-edf6d46ab2bd")
+	)
+	(wire
+		(pts
 			(xy 257.81 63.5) (xy 257.81 43.18)
 		)
 		(stroke
@@ -15196,6 +15206,16 @@
 			(type default)
 		)
 		(uuid "eaeb4e36-ea3a-4700-b5d5-53f0a1720291")
+	)
+	(wire
+		(pts
+			(xy 236.22 195.58) (xy 241.3 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecaab365-3a0f-4f2b-9d01-3da7cf3af340")
 	)
 	(wire
 		(pts
@@ -21496,6 +21516,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 236.22 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b95cdef-6e30-4a53-8ba3-59524e573d9a")
+		(property "Reference" "#PWR013"
+			(at 236.22 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 231.14 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 236.22 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5260c9aa-0653-424e-ab45-6bd517b969e9")
+		)
+		(instances
+			(project "pentium_test"
+				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/f9ce7f5b-ff1d-44aa-be21-d6d7fc35ac92"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 250.19 236.22 0)
 		(unit 1)
@@ -22861,71 +22946,6 @@
 			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/f9ce7f5b-ff1d-44aa-be21-d6d7fc35ac92"
 					(reference "C233")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 241.3 194.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b51b305a-24b9-4a84-92cb-af9bc822ae61")
-		(property "Reference" "#PWR013"
-			(at 241.3 200.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 237.49 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70d023c8-1fa0-424e-9785-2bef7aa96f87")
-		)
-		(instances
-			(project "pentium_test"
-				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/f9ce7f5b-ff1d-44aa-be21-d6d7fc35ac92"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
