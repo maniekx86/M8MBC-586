@@ -8122,6 +8122,16 @@
 	)
 	(wire
 		(pts
+			(xy 398.78 161.29) (xy 398.78 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0027ee33-8101-4159-bd50-ba9a22299d36")
+	)
+	(wire
+		(pts
 			(xy 19.05 245.11) (xy 25.4 245.11)
 		)
 		(stroke
@@ -10332,6 +10342,16 @@
 	)
 	(wire
 		(pts
+			(xy 384.81 161.29) (xy 398.78 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ecd64e0-a497-4686-8383-9fc457e8b36d")
+	)
+	(wire
+		(pts
 			(xy 67.31 110.49) (xy 80.01 110.49)
 		)
 		(stroke
@@ -11279,6 +11299,16 @@
 			(type default)
 		)
 		(uuid "57b0b5f2-04d1-43e8-9b23-8effefa3692a")
+	)
+	(wire
+		(pts
+			(xy 398.78 149.86) (xy 398.78 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c8cda7-3d67-4588-b2b6-def28068b705")
 	)
 	(bus
 		(pts
@@ -18980,6 +19010,16 @@
 		)
 		(uuid "63c4691f-202c-4e46-afcc-c10cd41a9ee1")
 	)
+	(label "ISA5_RESET"
+		(at 384.81 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64cb302f-67bc-4b7f-8be2-36710b5c610d")
+	)
 	(label "ISA_A11"
 		(at 107.95 252.73 0)
 		(effects
@@ -23505,7 +23545,7 @@
 		(dnp no)
 		(uuid "169f8142-608b-4444-b321-9a73882c9255")
 		(property "Reference" "R907"
-			(at 401.574 177.038 0)
+			(at 394.97 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23513,7 +23553,7 @@
 			)
 		)
 		(property "Value" "300"
-			(at 402.59 179.324 0)
+			(at 394.97 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24760,7 +24800,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 149.86 43.18 90)
+			(at 148.59 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26312,7 +26352,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 148.59 132.08 90)
+			(at 147.32 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26779,7 +26819,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 148.59 125.73 90)
+			(at 147.32 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26846,7 +26886,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 148.59 119.38 90)
+			(at 147.32 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28168,6 +28208,75 @@
 			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/099e324a-d5cc-466e-a3ee-c9d666b576ac"
 					(reference "#PWR0929")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 398.78 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80bbd99c-b373-4c3e-b890-a841b0153e3f")
+		(property "Reference" "R908"
+			(at 400.558 153.7278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 400.558 156.1521 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 397.002 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 398.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 398.78 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f0c824c-ab08-455b-b4b1-9a4ca37beebe")
+		)
+		(pin "1"
+			(uuid "0d027647-9433-4d78-9428-1701f3aaafde")
+		)
+		(instances
+			(project "pentium_test"
+				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/099e324a-d5cc-466e-a3ee-c9d666b576ac"
+					(reference "R908")
 					(unit 1)
 				)
 			)
@@ -30109,7 +30218,7 @@
 		(dnp no)
 		(uuid "a9370e79-154f-48cb-ac59-037b075f76df")
 		(property "Reference" "R906"
-			(at 391.414 177.038 0)
+			(at 384.81 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30117,7 +30226,7 @@
 			)
 		)
 		(property "Value" "300"
-			(at 392.43 179.324 0)
+			(at 384.81 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31610,6 +31719,71 @@
 			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/099e324a-d5cc-466e-a3ee-c9d666b576ac"
 					(reference "#PWR0946")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 398.78 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf5d477b-90e6-48ef-87ff-8938fdbddc8b")
+		(property "Reference" "#PWR014"
+			(at 398.78 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 395.224 148.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 398.78 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 398.78 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 398.78 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac388e7e-850f-4e1e-9b28-39354dff8070")
+		)
+		(instances
+			(project "pentium_test"
+				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/099e324a-d5cc-466e-a3ee-c9d666b576ac"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)

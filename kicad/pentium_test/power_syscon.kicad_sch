@@ -8233,7 +8233,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 66.04) (xy 201.93 66.04)
+			(xy 175.26 66.04) (xy 213.36 66.04)
 		)
 		(stroke
 			(width 0)
@@ -9973,7 +9973,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 71.12) (xy 201.93 71.12)
+			(xy 175.26 71.12) (xy 213.36 71.12)
 		)
 		(stroke
 			(width 0)
@@ -11407,7 +11407,7 @@
 	)
 	(global_label "FPGA_CTRL_DIN"
 		(shape output)
-		(at 201.93 71.12 0)
+		(at 213.36 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11417,7 +11417,7 @@
 		)
 		(uuid "1a71c811-9c5f-494e-b2e2-eda08b0cef4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.3086 71.12 0)
+			(at 230.7386 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11495,7 +11495,7 @@
 	)
 	(global_label "FPGA_ISA_PROGRAM"
 		(shape output)
-		(at 201.93 66.04 0)
+		(at 213.36 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11505,7 +11505,7 @@
 		)
 		(uuid "3d853a14-fdad-43ed-b408-edf3c784d685")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.421 66.04 0)
+			(at 234.851 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11603,7 +11603,7 @@
 			)
 		)
 	)
-	(global_label "FPGA_CTRL_CCLK"
+	(global_label "~{PCI_S1_GNT}{slash}FPGA_CTRL_CCLK"
 		(shape output)
 		(at 180.34 68.58 0)
 		(fields_autoplaced yes)
@@ -11615,7 +11615,7 @@
 		)
 		(uuid "62ff6676-0b83-4a86-85c1-5e9625f9f7a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.3514 68.58 0)
+			(at 211.749 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
