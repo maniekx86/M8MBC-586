@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "M8MBC-586 REV 0.1")
-		(date "2026-11-12")
+		(date "2026-11-19")
 		(rev "0.1")
 		(company "maniek86.xyz")
 		(comment 1 "CODENAME: DUNA RIVER")
@@ -17707,7 +17707,7 @@
 			(uuid "65c58122-c33d-4634-b00d-b8451bb25333")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/f9ce7f5b-ff1d-44aa-be21-d6d7fc35ac92"
 					(reference "#PWR0210")
 					(unit 1)
@@ -21437,7 +21437,7 @@
 			(uuid "09612f31-f300-4f4e-8fac-4d0ed2a2103c")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/f9ce7f5b-ff1d-44aa-be21-d6d7fc35ac92"
 					(reference "JP201")
 					(unit 1)
@@ -24460,7 +24460,7 @@
 			(uuid "0c5449b9-3cfd-4e7c-90c8-d84f10cc6da2")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/f9ce7f5b-ff1d-44aa-be21-d6d7fc35ac92"
 					(reference "#PWR04")
 					(unit 1)
@@ -25382,7 +25382,7 @@
 			(uuid "f20ad0ca-56ca-4683-a94f-7c090bf4565d")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/f9ce7f5b-ff1d-44aa-be21-d6d7fc35ac92"
 					(reference "J201")
 					(unit 1)

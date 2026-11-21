@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "M8MBC-586 REV 0.1")
-		(date "2026-11-12")
+		(date "2026-11-19")
 		(rev "0.1")
 		(company "maniek86.xyz")
 		(comment 1 "CODENAME: DUNA RIVER")
@@ -5103,7 +5103,7 @@
 			(uuid "00e1242b-f7d3-4a29-a13c-2403eedbb3b7")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/e57f3be3-36c7-44a6-91b7-d92d2253579c"
 					(reference "Q1001")
 					(unit 1)
@@ -5171,7 +5171,7 @@
 			(uuid "1bf2ba47-8ce2-47da-8ae8-a30060981abb")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/e57f3be3-36c7-44a6-91b7-d92d2253579c"
 					(reference "L1001")
 					(unit 1)
@@ -5328,7 +5328,7 @@
 			(uuid "bf9be3a1-0e2e-43ca-be20-f7f264a23327")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/e57f3be3-36c7-44a6-91b7-d92d2253579c"
 					(reference "D1001")
 					(unit 1)
@@ -6032,7 +6032,7 @@
 			(uuid "1b47f4f2-c1f4-49a5-9f84-5b9d64d55056")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/e57f3be3-36c7-44a6-91b7-d92d2253579c"
 					(reference "J1001")
 					(unit 1)
@@ -6299,7 +6299,7 @@
 			(uuid "ab662e94-00c6-48ea-bcc4-22d083e4cd97")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/e57f3be3-36c7-44a6-91b7-d92d2253579c"
 					(reference "#FLG01")
 					(unit 1)
@@ -6439,7 +6439,7 @@
 			(uuid "98580ee7-6be0-4a86-a76a-3a202d8239be")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/e57f3be3-36c7-44a6-91b7-d92d2253579c"
 					(reference "R1003")
 					(unit 1)
@@ -6509,7 +6509,7 @@
 			(uuid "e68b164d-68d0-451e-95a8-91ee0a54ad47")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/e57f3be3-36c7-44a6-91b7-d92d2253579c"
 					(reference "C1009")
 					(unit 1)
@@ -6719,7 +6719,7 @@
 			(uuid "100d07ea-b669-49be-88d3-c895325a6f65")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/e57f3be3-36c7-44a6-91b7-d92d2253579c"
 					(reference "R1002")
 					(unit 1)
@@ -6855,7 +6855,7 @@
 			(uuid "6b1205a5-2bd7-4b54-bc0e-a451de8cc807")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/e57f3be3-36c7-44a6-91b7-d92d2253579c"
 					(reference "C1007")
 					(unit 1)
@@ -6921,7 +6921,7 @@
 			(uuid "950c7401-da0a-457d-8d98-b374244c7880")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/e57f3be3-36c7-44a6-91b7-d92d2253579c"
 					(reference "#PWR01002")
 					(unit 1)
@@ -6987,7 +6987,7 @@
 			(uuid "c28524ac-5fc5-4570-9cf5-64718ff4be70")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/e57f3be3-36c7-44a6-91b7-d92d2253579c"
 					(reference "#PWR01005")
 					(unit 1)
@@ -7073,7 +7073,7 @@
 			(uuid "2b17f700-90d6-452e-b715-1fdf87952702")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/e57f3be3-36c7-44a6-91b7-d92d2253579c"
 					(reference "U1001")
 					(unit 1)
@@ -7318,7 +7318,7 @@
 			(uuid "c028f05b-cad1-4a70-9327-e8bb5108055b")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/e57f3be3-36c7-44a6-91b7-d92d2253579c"
 					(reference "SW1001")
 					(unit 1)
@@ -7524,7 +7524,7 @@
 			(uuid "79d822a3-f403-4875-ab55-2793724418e0")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/e57f3be3-36c7-44a6-91b7-d92d2253579c"
 					(reference "#PWR01009")
 					(unit 1)
@@ -7804,7 +7804,7 @@
 			(uuid "61b460f9-1a75-4eed-b752-162e26b9b4c1")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/e57f3be3-36c7-44a6-91b7-d92d2253579c"
 					(reference "C1014")
 					(unit 1)
@@ -7870,7 +7870,7 @@
 			(uuid "7de4bc67-ce05-4f8e-8baa-6a681e1bc311")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/e57f3be3-36c7-44a6-91b7-d92d2253579c"
 					(reference "#PWR01012")
 					(unit 1)
@@ -7938,7 +7938,7 @@
 			(uuid "639bdd98-8e15-45c9-a084-7399ed63d754")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/e57f3be3-36c7-44a6-91b7-d92d2253579c"
 					(reference "C1001")
 					(unit 1)

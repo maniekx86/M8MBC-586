@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "M8MBC-586 REV 0.1")
-		(date "2026-11-12")
+		(date "2026-11-19")
 		(rev "0.1")
 		(company "maniek86.xyz")
 		(comment 1 "CODENAME: DUNA RIVER")
@@ -12684,7 +12684,7 @@
 			(uuid "13dbb43e-9f9a-4b8b-b1e7-9179853a9e0a")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/49ac7cf8-c3c6-4f20-85a8-fcdd231c674a"
 					(reference "#PWR01128")
 					(unit 1)
@@ -13216,7 +13216,7 @@
 			(uuid "afd1d9c1-a547-47e1-866c-8990e38f061a")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/49ac7cf8-c3c6-4f20-85a8-fcdd231c674a"
 					(reference "BT1101")
 					(unit 1)
@@ -13434,7 +13434,7 @@
 			(uuid "2dd29034-d554-4362-b92a-b12ac2790812")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/49ac7cf8-c3c6-4f20-85a8-fcdd231c674a"
 					(reference "D1101")
 					(unit 1)
@@ -13624,7 +13624,7 @@
 			(uuid "d4bef701-d5a7-4e9a-8b1c-4a3775bf4743")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/49ac7cf8-c3c6-4f20-85a8-fcdd231c674a"
 					(reference "U1101")
 					(unit 1)
@@ -14295,7 +14295,7 @@
 			(uuid "9af5bbce-fafb-4cc1-88a7-bb4c3fdb4059")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/49ac7cf8-c3c6-4f20-85a8-fcdd231c674a"
 					(reference "U1104")
 					(unit 1)
@@ -14361,7 +14361,7 @@
 			(uuid "95d2179d-862e-407c-af73-e622ccc220bb")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/49ac7cf8-c3c6-4f20-85a8-fcdd231c674a"
 					(reference "#FLG02")
 					(unit 1)
@@ -15251,7 +15251,7 @@
 			(uuid "261083b5-abd5-41b3-afa6-a0740dbbc814")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/49ac7cf8-c3c6-4f20-85a8-fcdd231c674a"
 					(reference "M1101")
 					(unit 1)
@@ -15327,7 +15327,7 @@
 			(uuid "dbf20189-1899-41ea-af9a-41581f6b5840")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/49ac7cf8-c3c6-4f20-85a8-fcdd231c674a"
 					(reference "J1105")
 					(unit 1)
@@ -15945,7 +15945,7 @@
 			(uuid "a2057dfc-52bc-437d-a566-138e0976d0a5")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/49ac7cf8-c3c6-4f20-85a8-fcdd231c674a"
 					(reference "#PWR01")
 					(unit 1)
@@ -16284,7 +16284,7 @@
 			(uuid "3c213f18-99a5-455a-94d5-1464f4f432de")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/49ac7cf8-c3c6-4f20-85a8-fcdd231c674a"
 					(reference "J1106")
 					(unit 1)
@@ -16464,7 +16464,7 @@
 			(uuid "8c419d97-67dd-4f16-a5f4-41318eb2e777")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/49ac7cf8-c3c6-4f20-85a8-fcdd231c674a"
 					(reference "J1103")
 					(unit 1)
@@ -17932,7 +17932,7 @@
 			(uuid "a9bcb35e-a91c-4d04-9510-44f1f52fbd18")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/49ac7cf8-c3c6-4f20-85a8-fcdd231c674a"
 					(reference "#PWR02")
 					(unit 1)

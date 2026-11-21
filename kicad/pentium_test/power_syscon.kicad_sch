@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "M8MBC-586 REV 0.1")
-		(date "2026-11-12")
+		(date "2026-11-19")
 		(rev "0.1")
 		(company "maniek86.xyz")
 		(comment 1 "CODENAME: DUNA RIVER")
@@ -6115,6 +6115,18 @@
 		)
 	)
 	(rectangle
+		(start 245.11 152.4)
+		(end 294.64 245.11)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 27c06018-3224-4191-9f49-c6d4cb2eb505)
+	)
+	(rectangle
 		(start 16.51 184.15)
 		(end 128.27 280.67)
 		(stroke
@@ -6250,6 +6262,17 @@
 		)
 		(uuid "8000403e-0079-496e-9a8d-f7b7149c1a1f")
 	)
+	(text "Voltage LEDs"
+		(exclude_from_sim no)
+		(at 245.11 152.4 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "901306c3-c040-4873-8eac-ccb9e0e94966")
+	)
 	(text "<- Clock"
 		(exclude_from_sim no)
 		(at 245.11 106.68 0)
@@ -6346,6 +6369,12 @@
 		(uuid "1decb5e9-62b6-4ae3-9943-6e866d09c5a4")
 	)
 	(junction
+		(at 287.02 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ea2fc3c-be6c-4f27-b4b1-3d3146471421")
+	)
+	(junction
 		(at 335.28 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6424,6 +6453,12 @@
 		(uuid "3dd85048-1f66-47c2-921c-98a1ff5e7e44")
 	)
 	(junction
+		(at 287.02 198.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e7494b7-d8fd-4bcb-b517-8ef7d46b9ff4")
+	)
+	(junction
 		(at 157.48 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6460,6 +6495,12 @@
 		(uuid "5767d177-1048-4562-9c7d-57b03aa0632e")
 	)
 	(junction
+		(at 287.02 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5a54752e-7ac5-4723-ac67-580e58c2a2d0")
+	)
+	(junction
 		(at 173.99 259.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6494,6 +6535,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6faa2db7-db2b-4009-b844-907d4387c29c")
+	)
+	(junction
+		(at 287.02 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71832d70-99f2-4fb0-8483-2768e94153d2")
 	)
 	(junction
 		(at 52.07 247.65)
@@ -6554,6 +6601,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8cce1cd8-9122-48b2-8599-106f10e1f510")
+	)
+	(junction
+		(at 287.02 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fe932df-f6b8-4eeb-9014-d1a2baee510c")
 	)
 	(junction
 		(at 191.77 30.48)
@@ -6748,6 +6801,12 @@
 		(uuid "f2e04362-fdab-4aff-95ba-ee0f090be0eb")
 	)
 	(junction
+		(at 287.02 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f49c9930-a992-40e3-9fb0-cb97821b7a9f")
+	)
+	(junction
 		(at 52.07 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6833,6 +6892,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 232.41) (xy 259.08 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "017e225a-c250-4867-8420-18e885472566")
+	)
+	(wire
+		(pts
 			(xy 394.97 161.29) (xy 394.97 162.56)
 		)
 		(stroke
@@ -6893,6 +6962,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 198.12) (xy 275.59 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06b4e3f1-553b-480d-839d-d2e71811a6df")
+	)
+	(wire
+		(pts
 			(xy 312.42 153.67) (xy 312.42 146.05)
 		)
 		(stroke
@@ -6943,6 +7022,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 233.68) (xy 287.02 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09c81699-83e0-4df2-afe2-5a8234a4f5d2")
+	)
+	(wire
+		(pts
 			(xy 52.07 142.24) (xy 67.31 142.24)
 		)
 		(stroke
@@ -6950,6 +7039,16 @@
 			(type default)
 		)
 		(uuid "0a420f45-3d70-409d-9899-6597851293e9")
+	)
+	(wire
+		(pts
+			(xy 259.08 172.72) (xy 259.08 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a70a334-e3c8-49d6-87da-2d178212b214")
 	)
 	(wire
 		(pts
@@ -7010,6 +7109,16 @@
 			(type default)
 		)
 		(uuid "0da1fd0d-80b0-4c38-b6ae-ac3583ecf507")
+	)
+	(wire
+		(pts
+			(xy 283.21 220.98) (xy 287.02 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dcd07bf-2af2-4a66-a349-6f8ac91b414f")
 	)
 	(wire
 		(pts
@@ -7173,6 +7282,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 233.68) (xy 275.59 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1488d9d6-6fcb-412d-b8be-f65345a70b75")
+	)
+	(wire
+		(pts
 			(xy 144.78 44.45) (xy 144.78 45.72)
 		)
 		(stroke
@@ -7303,6 +7422,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 162.56) (xy 265.43 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c6126b1-753c-424c-b7fa-07cbaf289ad8")
+	)
+	(wire
+		(pts
 			(xy 247.65 274.32) (xy 260.35 274.32)
 		)
 		(stroke
@@ -7330,6 +7459,16 @@
 			(type default)
 		)
 		(uuid "1d8c6f8b-f7a3-4c9d-9d5e-2e8751bb6d3c")
+	)
+	(wire
+		(pts
+			(xy 259.08 186.69) (xy 265.43 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dbb589c-320a-4f7a-8c73-b2b1224dad88")
 	)
 	(wire
 		(pts
@@ -7613,6 +7752,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 173.99) (xy 287.02 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c739aae-4fa4-4437-9a72-0ec1b592791d")
+	)
+	(wire
+		(pts
 			(xy 391.16 97.79) (xy 351.79 97.79)
 		)
 		(stroke
@@ -7883,6 +8032,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 220.98) (xy 287.02 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b376427-2f0d-4c4a-bf99-24cf74160f2d")
+	)
+	(wire
+		(pts
 			(xy 278.13 73.66) (xy 279.4 73.66)
 		)
 		(stroke
@@ -8143,6 +8302,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 209.55) (xy 287.02 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "532ecf86-0dfd-4dc5-9227-038469c8c6dd")
+	)
+	(wire
+		(pts
 			(xy 175.26 53.34) (xy 180.34 53.34)
 		)
 		(stroke
@@ -8180,6 +8349,16 @@
 			(type default)
 		)
 		(uuid "547e446c-449a-45fb-90f9-bd50675214c1")
+	)
+	(wire
+		(pts
+			(xy 259.08 196.85) (xy 259.08 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55671cc2-a120-45d7-904c-3d08ff27e3a6")
 	)
 	(wire
 		(pts
@@ -8330,6 +8509,16 @@
 			(type default)
 		)
 		(uuid "5bc30423-d499-4f8f-8252-af1a5ddda4a3")
+	)
+	(wire
+		(pts
+			(xy 283.21 233.68) (xy 287.02 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c310f08-d9af-4412-a121-c46f1ad5c5a1")
 	)
 	(wire
 		(pts
@@ -8683,6 +8872,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 162.56) (xy 283.21 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dbe75a4-fc04-441b-8176-4446d9b4dfe7")
+	)
+	(wire
+		(pts
 			(xy 107.95 121.92) (xy 124.46 121.92)
 		)
 		(stroke
@@ -8773,6 +8972,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 220.98) (xy 287.02 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "729dfe14-35eb-492f-9741-27b0cb2a4ca4")
+	)
+	(wire
+		(pts
 			(xy 160.02 173.99) (xy 160.02 172.72)
 		)
 		(stroke
@@ -8790,6 +8999,16 @@
 			(type default)
 		)
 		(uuid "731de83f-52aa-4a80-971b-097cdef6cc59")
+	)
+	(wire
+		(pts
+			(xy 273.05 162.56) (xy 275.59 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7321e570-b3b3-4a30-ac1d-cad458e6bcb1")
 	)
 	(wire
 		(pts
@@ -8860,6 +9079,16 @@
 			(type default)
 		)
 		(uuid "7ad715c1-687b-43e7-86f1-483237195e6a")
+	)
+	(wire
+		(pts
+			(xy 259.08 233.68) (xy 265.43 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b6ec6da-a83d-43bd-988f-f0d11d3f0bd9")
 	)
 	(wire
 		(pts
@@ -9113,6 +9342,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 161.29) (xy 259.08 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8831fd23-d385-48d4-bae9-dcd4265d10ca")
+	)
+	(wire
+		(pts
 			(xy 86.36 154.94) (xy 104.14 154.94)
 		)
 		(stroke
@@ -9180,6 +9419,16 @@
 			(type default)
 		)
 		(uuid "8a663fa7-3a07-4549-8b5b-90d030fd4e17")
+	)
+	(wire
+		(pts
+			(xy 287.02 162.56) (xy 287.02 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a920f5f-2f31-469e-a3bf-aef39e920446")
 	)
 	(wire
 		(pts
@@ -9353,6 +9602,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 209.55) (xy 275.59 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94d87e9b-1b58-475a-8a58-5b5503f8af3e")
+	)
+	(wire
+		(pts
 			(xy 191.77 236.22) (xy 184.15 236.22)
 		)
 		(stroke
@@ -9490,6 +9749,16 @@
 			(type default)
 		)
 		(uuid "9e432ac6-bf32-4c29-ad42-3fe4bb5dbca9")
+	)
+	(wire
+		(pts
+			(xy 259.08 208.28) (xy 259.08 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ed3ac84-89ca-4739-94b9-d352db1ca42d")
 	)
 	(wire
 		(pts
@@ -9723,6 +9992,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 173.99) (xy 265.43 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b054def3-b0e3-4d75-8f31-00bdd7c5b0dc")
+	)
+	(wire
+		(pts
 			(xy 63.5 49.53) (xy 59.69 49.53)
 		)
 		(stroke
@@ -9870,6 +10149,16 @@
 			(type default)
 		)
 		(uuid "b7699cf6-dce3-4af2-b7e2-4aa65771c726")
+	)
+	(wire
+		(pts
+			(xy 259.08 198.12) (xy 265.43 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b796ab7a-abc2-41af-936e-ee96ddad1232")
 	)
 	(wire
 		(pts
@@ -10033,6 +10322,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 220.98) (xy 265.43 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c206ff47-971e-42ff-aca8-cd3a5f1fa835")
+	)
+	(wire
+		(pts
 			(xy 353.06 143.51) (xy 353.06 146.05)
 		)
 		(stroke
@@ -10060,6 +10359,16 @@
 			(type default)
 		)
 		(uuid "c2880ea2-245f-4701-90f6-608dbe09cb5c")
+	)
+	(wire
+		(pts
+			(xy 287.02 198.12) (xy 287.02 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c30a9d18-c5d3-4364-a853-856a41cb3f46")
 	)
 	(wire
 		(pts
@@ -10153,6 +10462,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 173.99) (xy 283.21 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca2359c7-baf1-40af-bf19-9418899d86ab")
+	)
+	(wire
+		(pts
 			(xy 78.74 194.31) (xy 91.44 194.31)
 		)
 		(stroke
@@ -10190,6 +10509,16 @@
 			(type default)
 		)
 		(uuid "cb9ff362-f134-4be9-a349-967f7e3933a1")
+	)
+	(wire
+		(pts
+			(xy 273.05 186.69) (xy 275.59 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbd55be0-a116-4e1d-8216-e36f8783fe3d")
 	)
 	(wire
 		(pts
@@ -10290,6 +10619,16 @@
 			(type default)
 		)
 		(uuid "d05baf98-b2ae-46ed-926f-bc15f8291f2a")
+	)
+	(wire
+		(pts
+			(xy 273.05 220.98) (xy 275.59 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d07202f3-95dd-412d-9a1b-e9bc6127aaa3")
 	)
 	(wire
 		(pts
@@ -10603,6 +10942,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 219.71) (xy 259.08 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58c4735-7673-4829-9e23-91e7c798d68a")
+	)
+	(wire
+		(pts
 			(xy 350.52 207.01) (xy 350.52 214.63)
 		)
 		(stroke
@@ -10680,6 +11029,26 @@
 			(type default)
 		)
 		(uuid "eb341519-024d-4d50-be8f-5d9f449b848b")
+	)
+	(wire
+		(pts
+			(xy 287.02 186.69) (xy 283.21 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb6bbcb8-38df-4cca-8c39-02d9f0d44725")
+	)
+	(wire
+		(pts
+			(xy 287.02 209.55) (xy 287.02 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebbd3f00-46b0-4519-9bf2-b2cbfca83cd0")
 	)
 	(wire
 		(pts
@@ -10803,6 +11172,26 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 198.12) (xy 287.02 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f316bbbb-fab5-4954-899c-22a6463539ea")
+	)
+	(wire
+		(pts
+			(xy 259.08 185.42) (xy 259.08 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f34208c8-b5b6-4853-9b1d-ca792ff978ac")
+	)
+	(wire
+		(pts
 			(xy 205.74 240.03) (xy 213.36 240.03)
 		)
 		(stroke
@@ -10833,6 +11222,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 209.55) (xy 265.43 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b1b734-fc3e-4c31-b5a3-fd09e41a554e")
+	)
+	(wire
+		(pts
 			(xy 182.88 163.83) (xy 182.88 165.1)
 		)
 		(stroke
@@ -10850,6 +11249,16 @@
 			(type default)
 		)
 		(uuid "f58d82e1-0eeb-478e-bec1-3c942620705d")
+	)
+	(wire
+		(pts
+			(xy 273.05 173.99) (xy 275.59 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b32f0d-d981-4917-b979-217465bdb3db")
 	)
 	(wire
 		(pts
@@ -12220,7 +12629,7 @@
 			(uuid "0f9000a4-eb67-4166-abde-9665d55abb6a")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "U604")
 					(unit 1)
@@ -12494,7 +12903,7 @@
 			(uuid "4a8e5af5-8975-4f37-8412-e40d38d15f0b")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "C626")
 					(unit 1)
@@ -12563,6 +12972,74 @@
 			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "#PWR0639")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 269.24 233.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b84ed49-b722-40d0-b70e-110da9118d99")
+		(property "Reference" "R640"
+			(at 269.24 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 269.24 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 269.24 235.458 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 269.24 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a40c2bcc-bc7c-4a77-b248-60e8f17ff99d")
+		)
+		(pin "2"
+			(uuid "ff4c87ca-d92c-4bea-9ed5-da5056a44c55")
+		)
+		(instances
+			(project "pentium_test"
+				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
+					(reference "R640")
 					(unit 1)
 				)
 			)
@@ -12970,9 +13447,151 @@
 			(uuid "068dc5b2-34c1-4fa5-ba35-3edd4c364f29")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "U603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 259.08 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13c06e10-9036-4c7f-b1d5-7f84fe057148")
+		(property "Reference" "#PWR020"
+			(at 259.08 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 254.762 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 259.08 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f629279f-bf99-403a-8512-ebd975932080")
+		)
+		(instances
+			(project "pentium_test"
+				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 279.4 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16d9b4df-f1c4-4ad8-9c7d-0b6af5c2f5f7")
+		(property "Reference" "D608"
+			(at 277.8125 228.2655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_N5V"
+			(at 277.8125 230.6898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 279.4 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 279.4 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 279.4 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dfb8f8f6-8a16-4ab3-a7c0-340da4ce1e7e")
+		)
+		(pin "1"
+			(uuid "b3fb8915-135e-40ff-8954-f25d244cfe79")
+		)
+		(instances
+			(project "pentium_test"
+				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
+					(reference "D608")
 					(unit 1)
 				)
 			)
@@ -13903,7 +14522,7 @@
 			(uuid "4b293b51-b264-4558-a4bb-5b9bda5409bf")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "JP601")
 					(unit 1)
@@ -14373,7 +14992,7 @@
 			(uuid "7dd1c339-ba1b-4890-813d-d807b3752ded")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "R614")
 					(unit 1)
@@ -14443,7 +15062,7 @@
 			(uuid "6259a52d-f60f-40a6-a714-17749be6f490")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "R613")
 					(unit 1)
@@ -14519,9 +15138,74 @@
 			(uuid "040c0103-a51d-4552-9428-36b7961c77ea")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "J603")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 287.02 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31c36c5e-e4c0-4531-b6a4-8330906e641a")
+		(property "Reference" "#PWR021"
+			(at 287.02 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 283.718 239.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.02 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 287.02 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ba74843-2854-4de0-a0d8-444a0b09bcbd")
+		)
+		(instances
+			(project "pentium_test"
+				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -14657,6 +15341,83 @@
 			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "C628")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 279.4 209.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "347038e5-ba3b-4e4f-818d-092f628dbd35")
+		(property "Reference" "D606"
+			(at 280.9875 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_12V"
+			(at 280.9875 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 279.4 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 279.4 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 279.4 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a479e920-902c-4b60-9e86-58feab140f2b")
+		)
+		(pin "1"
+			(uuid "8086405f-2f38-40de-8011-6044ebb41657")
+		)
+		(instances
+			(project "pentium_test"
+				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
+					(reference "D606")
 					(unit 1)
 				)
 			)
@@ -15050,7 +15811,7 @@
 			(uuid "660e6b91-8dcc-4250-bfc2-0c641f22670e")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "#PWR0620")
 					(unit 1)
@@ -15320,6 +16081,83 @@
 			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "#PWR0646")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 279.4 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47791228-81fc-4f57-a682-dd3b9ef80508")
+		(property "Reference" "D607"
+			(at 277.8125 215.5655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_N12V"
+			(at 277.8125 217.9898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 279.4 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 279.4 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 279.4 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8bbcf18b-4118-4e6e-ae68-4c58cc7fa8d2")
+		)
+		(pin "1"
+			(uuid "a5474d12-9ab3-4023-ab01-6794646e5fba")
+		)
+		(instances
+			(project "pentium_test"
+				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
+					(reference "D607")
 					(unit 1)
 				)
 			)
@@ -15857,9 +16695,74 @@
 			(uuid "5b87b17b-6cb6-4db5-9a4f-964f1e1cc988")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "U605")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-5V")
+		(at 259.08 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "543189dc-19b0-43e5-9ff5-125640a06196")
+		(property "Reference" "#PWR023"
+			(at 259.08 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-5V"
+			(at 259.08 228.2769 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-5V\""
+			(at 259.08 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf45b2cf-02e9-498c-8229-6faeb372d1c5")
+		)
+		(instances
+			(project "pentium_test"
+				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -16162,6 +17065,71 @@
 			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "U602")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 259.08 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "582ccab2-6ab8-449d-abbc-e6d7a599a01b")
+		(property "Reference" "#PWR019"
+			(at 259.08 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 254.508 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 259.08 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75a7b5e9-9149-4378-a243-a961493e168e")
+		)
+		(instances
+			(project "pentium_test"
+				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -16519,9 +17487,77 @@
 			(uuid "7d892111-16a9-49eb-8c62-26994541e04a")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "U606")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 269.24 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d276572-7800-4202-86f3-8d677ccb477f")
+		(property "Reference" "R635"
+			(at 269.24 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 269.24 170.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 269.24 175.768 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 269.24 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "951c0f96-deab-4337-a4ee-802d791b31e2")
+		)
+		(pin "2"
+			(uuid "3811766a-0c8e-4f18-9988-af8aef66f1be")
+		)
+		(instances
+			(project "pentium_test"
+				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
+					(reference "R635")
 					(unit 1)
 				)
 			)
@@ -16591,6 +17627,83 @@
 			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "C633")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 279.4 162.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e1680aa-e5b5-4bd5-a4b8-579e765ba1f9")
+		(property "Reference" "D602"
+			(at 280.9875 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_5VSB"
+			(at 280.9875 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 279.4 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 279.4 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 279.4 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "23f4800b-2ac9-45d5-941e-0c12aaf3ebf7")
+		)
+		(pin "1"
+			(uuid "9ec9cd40-754b-4a47-9648-a9653f7d0a70")
+		)
+		(instances
+			(project "pentium_test"
+				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
+					(reference "D602")
 					(unit 1)
 				)
 			)
@@ -16987,7 +18100,7 @@
 			(uuid "a367daa0-2c44-4241-bb3f-ddd9245bffc7")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "#PWR0654")
 					(unit 1)
@@ -17053,7 +18166,7 @@
 			(uuid "e4f18df8-3e1c-4b27-9d32-30cb55500f66")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "#PWR0657")
 					(unit 1)
@@ -17468,6 +18581,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 269.24 209.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "716a65af-5de8-463d-90bc-e82ec7c89471")
+		(property "Reference" "R638"
+			(at 269.24 203.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 269.24 205.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 269.24 211.328 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 269.24 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1cdeb17-59fc-4737-8ceb-01616b936953")
+		)
+		(pin "2"
+			(uuid "3eb7f499-f3c9-4be9-abb2-8f5c74042af6")
+		)
+		(instances
+			(project "pentium_test"
+				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
+					(reference "R638")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Oscillator:TXC-7C")
 		(at 100.33 99.06 0)
 		(unit 1)
@@ -17533,9 +18714,86 @@
 			(uuid "de368dff-1154-4197-87ae-ecbd956465a8")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "Y601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 279.4 198.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73b4b515-b206-42c8-8b09-460b5592e752")
+		(property "Reference" "D605"
+			(at 280.9875 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_3V3"
+			(at 280.9875 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 279.4 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 279.4 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 279.4 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "95daf111-3a5c-4b06-a9b4-c71cec9ba6a5")
+		)
+		(pin "1"
+			(uuid "6860f15c-c0ce-492c-ab83-a49fb1237507")
+		)
+		(instances
+			(project "pentium_test"
+				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
+					(reference "D605")
 					(unit 1)
 				)
 			)
@@ -17598,7 +18856,7 @@
 			(uuid "e14ea683-6136-417c-a800-711131317b8c")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "#PWR0621")
 					(unit 1)
@@ -17671,6 +18929,74 @@
 			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "C601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 269.24 220.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "784a7f06-f77f-43c0-a5f0-0ec8852ecd4e")
+		(property "Reference" "R639"
+			(at 269.24 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 269.24 217.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 269.24 222.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 269.24 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e14553e3-752b-40de-9ef3-60ccf84be378")
+		)
+		(pin "2"
+			(uuid "6be8694c-795e-4478-ad02-d1eb02dd5365")
+		)
+		(instances
+			(project "pentium_test"
+				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
+					(reference "R639")
 					(unit 1)
 				)
 			)
@@ -18151,6 +19477,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 259.08 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "840b004e-717a-4afa-873e-f97a3eb315e2")
+		(property "Reference" "#PWR016"
+			(at 259.08 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VSB"
+			(at 254 160.528 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 259.08 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0081c5b4-7424-4304-b48c-9daa07c54951")
+		)
+		(instances
+			(project "pentium_test"
+				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 182.88 179.07 0)
 		(unit 1)
@@ -18422,6 +19813,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 269.24 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c6e9a45-aaff-4ec0-968d-541cc6d312a3")
+		(property "Reference" "R634"
+			(at 269.24 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 269.24 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 269.24 164.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 269.24 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c5d2c3b-8155-4033-9db7-4d07eca5242f")
+		)
+		(pin "2"
+			(uuid "40cd1904-30da-4b4d-9136-d91c00ed0a30")
+		)
+		(instances
+			(project "pentium_test"
+				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
+					(reference "R634")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 111.76 36.83 0)
 		(unit 1)
@@ -18569,15 +20028,15 @@
 		(fields_autoplaced yes)
 		(uuid "8e6ad3dd-443a-46c5-b72a-993e7079124d")
 		(property "Reference" "D601"
-			(at 57.4675 43.2265 0)
+			(at 57.4675 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 57.4675 45.6508 0)
+		(property "Value" "LED_RP2040"
+			(at 57.4675 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18627,7 +20086,7 @@
 			(uuid "fb708559-bd61-41b1-9df5-d68f10fb549a")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "D601")
 					(unit 1)
@@ -19241,6 +20700,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 259.08 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fba28f5-106f-4e0a-8ba2-4771ad3c9f72")
+		(property "Reference" "#PWR018"
+			(at 259.08 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 255.016 183.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 259.08 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d41113dd-2f9a-4709-a84e-cefddaf6288c")
+		)
+		(instances
+			(project "pentium_test"
+				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 121.92 130.81 0)
 		(unit 1)
@@ -19301,6 +20825,83 @@
 			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "#PWR0626")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 279.4 173.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0840bc5-1c14-4c84-a4cb-a8630a588bd9")
+		(property "Reference" "D603"
+			(at 280.9875 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_3V3SB"
+			(at 280.9875 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 279.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 279.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 279.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "064915a2-f2ae-4164-9de5-5033b3814cc6")
+		)
+		(pin "1"
+			(uuid "84502c9c-5545-40d1-8cff-262ad027d061")
+		)
+		(instances
+			(project "pentium_test"
+				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
+					(reference "D603")
 					(unit 1)
 				)
 			)
@@ -19437,6 +21038,74 @@
 			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "R628")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 269.24 198.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a250baaf-b69d-49c9-8c89-416f6a6b83c9")
+		(property "Reference" "R637"
+			(at 269.24 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 269.24 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 269.24 199.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 269.24 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffaa3585-f5fa-41c1-b34e-1c4add07332b")
+		)
+		(pin "2"
+			(uuid "bdf8f691-e45f-432f-a568-f63b91dcb684")
+		)
+		(instances
+			(project "pentium_test"
+				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
+					(reference "R637")
 					(unit 1)
 				)
 			)
@@ -19845,7 +21514,7 @@
 			(uuid "293b162a-348e-4132-9994-d5015ccff3e6")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "#PWR0616")
 					(unit 1)
@@ -19920,6 +21589,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-12V")
+		(at 259.08 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2e5bd44-5bca-48d0-ab20-af25ce4e35f2")
+		(property "Reference" "#PWR022"
+			(at 259.08 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 254.508 219.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 259.08 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07efc4a2-8fa4-4561-b02e-3f7c5a486755")
+		)
+		(instances
+			(project "pentium_test"
+				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 353.06 143.51 0)
 		(unit 1)
@@ -19977,7 +21711,7 @@
 			(uuid "c5a1a78d-e842-452b-8ec7-3996c790431b")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "#PWR0629")
 					(unit 1)
@@ -20188,6 +21922,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 259.08 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba14f740-a09c-4aed-9296-fbbb8f0244cd")
+		(property "Reference" "#PWR017"
+			(at 259.08 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3SB"
+			(at 253.492 171.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 259.08 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b5c0cc9-9a66-43de-9ca7-c44a2905f9ab")
+		)
+		(instances
+			(project "pentium_test"
+				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 34.29 137.16 0)
 		(unit 1)
@@ -20292,7 +22091,7 @@
 			(uuid "b8064966-4fee-49df-874d-b27c655b9044")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "J602")
 					(unit 1)
@@ -20916,7 +22715,7 @@
 			(uuid "c30eb5bd-a9e2-414d-a748-840c7605363b")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "#FLG03")
 					(unit 1)
@@ -21532,6 +23331,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 269.24 186.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "deb4638a-7d08-46a5-86eb-be6908b639bb")
+		(property "Reference" "R636"
+			(at 269.24 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 269.24 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 269.24 188.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 269.24 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e7b416d-7c4e-46b3-bba4-6accb973d8eb")
+		)
+		(pin "2"
+			(uuid "8176759d-f0c0-483a-bb45-90e49d34d2d1")
+		)
+		(instances
+			(project "pentium_test"
+				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
+					(reference "R636")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 53.34 199.39 0)
 		(unit 1)
@@ -21731,7 +23598,7 @@
 			(uuid "f4e5a6af-4cbd-4a1a-b137-be936ec8f98e")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "Q601")
 					(unit 1)
@@ -21998,7 +23865,7 @@
 			(uuid "b20c35c6-57a4-44b1-a299-771996f4cbab")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "#PWR0648")
 					(unit 1)
@@ -22064,7 +23931,7 @@
 			(uuid "6a632816-de28-4135-bdf4-44955962928b")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "#PWR0613")
 					(unit 1)
@@ -22269,6 +24136,83 @@
 			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
 					(reference "R608")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 279.4 186.69 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb6a6424-7049-4b02-a4d9-041410365ba2")
+		(property "Reference" "D604"
+			(at 280.9875 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_5V"
+			(at 280.9875 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 279.4 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 279.4 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 279.4 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3ff8d62b-9e22-4329-a097-0cd0abcff3a6")
+		)
+		(pin "1"
+			(uuid "6fffc5d8-611a-4faa-9ebd-c0cd0481642c")
+		)
+		(instances
+			(project "pentium_test"
+				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/4f49d0ca-daa5-4cfe-8203-17896047d31f"
+					(reference "D604")
 					(unit 1)
 				)
 			)

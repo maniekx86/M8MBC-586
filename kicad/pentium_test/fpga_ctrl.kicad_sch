@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "M8MBC-586 REV 0.1")
-		(date "2026-11-12")
+		(date "2026-11-19")
 		(rev "0.1")
 		(company "maniek86.xyz")
 		(comment 1 "CODENAME: DUNA RIVER")
@@ -19945,7 +19945,7 @@
 			(uuid "815cac64-1008-4bd7-9f7e-60703acdded6")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/74ec5bb3-041b-4522-9e46-8ffe1e394983"
 					(reference "TP401")
 					(unit 1)
@@ -20352,7 +20352,7 @@
 			(uuid "0aa82716-3e49-40ce-8d5f-8e52b21f3c04")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/74ec5bb3-041b-4522-9e46-8ffe1e394983"
 					(reference "U402")
 					(unit 1)
@@ -20623,7 +20623,7 @@
 			(uuid "eae8ca8f-4251-4a00-b6c1-1dbb9166ecb7")
 		)
 		(instances
-			(project ""
+			(project "pentium_test"
 				(path "/76cef0f9-5176-4b2e-96ee-844cfb622614/74ec5bb3-041b-4522-9e46-8ffe1e394983"
 					(reference "#PWR0415")
 					(unit 1)
